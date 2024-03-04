@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kode Mono", monospace;
+    font-weight: 10;
+    font-size: 0.8rem;
+    font-style: normal;
+    padding: 2% 25%;
+    background: linear-gradient(rgb(227, 202, 227), rgb(207, 169, 239)) ;
+}
+.casilla{
+    font-size: 0.6rem;
+    color: rgb(97, 96, 96)
+}
+input[type="text"], input[type="date"], #difficulty, #description, #addTask {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+    box-shadow: 1px 1px 7px;
+}
+
+#addTask{
+    background: rgb(196, 245, 245);
+}
+

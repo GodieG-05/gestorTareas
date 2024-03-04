@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gestor de Tareas</title>
+</head>
+<body>
+        <h1>Gestor de Tareas</h1><br>
+        <form id="task-form">
+        <label for="task">Tarea:</label><br>
+        <input type="text" id="task" name="task"><br>
+        
+        <label for="start-date">Fecha de Inicio:</label><br>
+        <input type="date" id="start-date" name="start-date"><br>
+
+        <label for="end-date">Fecha Final:</label><br>
+        <input type="date" id="end-date" name="end-date"><br>
+        
+        <label for="difficulty">Nivel de Dificultad:</label><br>
+        <select id="difficulty" name="difficulty">
+            <option value="facil">Fácil</option>
+            <option value="normal">Normal</option>
+            <option value="dificil">Difícil</option>
+        </select><br>
+        
+        <label for="description">Descripción:</label><br>
+        <textarea id="description" name="description"></textarea><br>
+        
+        <button type="submit" id="addTask">Agregar Tarea</button>
+        </form>
+        <br><hr><br>
+        <h2>Tareas Pendientes</h2>
+        <ul id="pending-tasks"></ul>
+        <br><hr><br>
+        <h2>Tareas Completadas</h2>
+        <ul id="completed-tasks"></ul>
+        <br><hr><br>  
+<script src="js/app.js"></script>
+</body>
+</html>
